@@ -1,0 +1,25 @@
+#!/bin/bash
+#BSUB -P stf011
+#BSUB -W 0:30
+#BSUB -nnodes 4
+#BSUB -alloc_flags gpumps
+#BSUB -J chocosgd
+#BSUB -o logs/chocosgd.o%J
+#BSUB -e logs/chocosgd.e%J
+##BSUB -q killable
+
+NNODES=$(cat ${LSB_DJOB_HOSTFILE} | sort | uniq | grep -v login | grep -v batch | wc -l)
+source choco_env.sh
+
+# centralized: complete; decentralized: ring, torus, expander, margulis_expander, social
+TOPOLOGY=ring
+
+NRANK=$((NNODES*6))
+WORLD=$(python -c "print(','.join(['0,1,2,3,4,5']*$NNODES))")
+cp run.sh.tplt run.sh
+sed -i "s/TODO_NRANK/$NNODES/" run.sh
+sed -i "s/TODO_GPURANKS/$WORLD/" run.sh
+sed -i "s/TODO_TOPOLOGY/$TOPOLOGY/" run.sh
+
+jsrun -n${NNODES} -a1 -g6 -c42 -r1 --smpiargs "-gpu" --bind=rs --launch_distribution=packed ./run.sh
+

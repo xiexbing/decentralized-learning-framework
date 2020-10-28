@@ -1,0 +1,21 @@
+#!/bin/bash
+#BSUB -P stf008 
+#BSUB -W 2:00
+#BSUB -nnodes NODE
+#BSUB -alloc_flags gpumps
+#BSUB -J APP_NODE_TOPOLOGY_PER 
+#BSUB -o logs/APP_NODE_TOPOLOGY_PER_TIMESTAMP.o%J
+#BSUB -e logs/APP_NODE_TOPOLOGY_PER_TIMESTAMP.e%J
+##BSUB -q killable
+
+source choco_env.sh
+
+run=run_APP_NODE_TOPOLOGY_PER_TIMESTAMP.sh
+if [[ PER == "6" ]]; then
+
+    jsrun -nNODE -a1 -g6 -c42 -r1 --smpiargs "-gpu" --bind=rs --launch_distribution=packed ./$run
+
+elif [[ PER == "1" ]]; then
+    jsrun -nNRANK -a1 -g1 -c7 -r6 --smpiargs "-gpu" --bind=proportional-packed:7 --launch_distribution=packed ./$run
+
+fi
