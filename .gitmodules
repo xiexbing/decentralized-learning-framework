@@ -1,0 +1,3 @@
+[submodule "summit-experiment"]
+	path = summit-experiment
+	url = https://code.ornl.gov/jqyin/ChocoSGD
