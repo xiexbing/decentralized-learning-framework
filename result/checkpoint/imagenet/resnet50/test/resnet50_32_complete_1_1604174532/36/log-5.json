@@ -17278,5 +17278,25 @@
   "top5": 91.554,
   "split": "test",
   "type": "local_model"
+ },
+ {
+  "measurement": "runtime",
+  "time": "2020-11-01 11:10:46",
+  "rank": 36,
+  "epoch": 90.0,
+  "best_perf": 73.6023178100586,
+  "split": "test",
+  "type": "local_model_avg"
+ },
+ {
+  "measurement": "runtime",
+  "time": "2020-11-01 17:31:38",
+  "rank": 36,
+  "epoch": 90.0,
+  "loss": 0.8477067559586501,
+  "top1": 79.43788748845678,
+  "top5": 92.6975952393106,
+  "split": "test",
+  "type": "eval_local_model_on_full_training_data"
  }
 ]
