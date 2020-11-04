@@ -1,0 +1,102 @@
+2020-11-02 03:04:12	rank: 152
+2020-11-02 03:04:13	node: d37n08
+2020-11-02 03:04:13	neighbors: [151, 153]
+2020-11-02 03:04:13	matrix: [[0.33333333 0.33333333 0.         ... 0.         0.         0.33333333]
+ [0.33333333 0.33333333 0.33333333 ... 0.         0.         0.        ]
+ [0.         0.33333333 0.33333333 ... 0.         0.         0.        ]
+ ...
+ [0.         0.         0.         ... 0.33333333 0.33333333 0.        ]
+ [0.         0.         0.         ... 0.33333333 0.33333333 0.33333333]
+ [0.33333333 0.         0.         ... 0.         0.33333333 0.33333333]]
+2020-11-02 03:23:09	best performance at local index 53         (best epoch 1.000, current epoch 1.000): 0.11039583384990692.
+2020-11-02 03:35:56	best performance at local index 106         (best epoch 2.000, current epoch 2.000): 0.13723959028720856.
+2020-11-02 03:47:08	best performance at local index 159         (best epoch 3.000, current epoch 3.000): 0.1589166671037674.
+2020-11-02 03:58:05	best performance at local index 212         (best epoch 4.000, current epoch 4.000): 0.21848958730697632.
+2020-11-02 04:09:20	best performance at local index 265         (best epoch 5.000, current epoch 5.000): 0.25568750500679016.
+2020-11-02 04:20:23	best performance at local index 318         (best epoch 6.000, current epoch 6.000): 0.3304375112056732.
+2020-11-02 04:31:23	best performance at local index 371         (best epoch 7.000, current epoch 7.000): 0.3815000057220459.
+2020-11-02 04:42:26	best performance at local index 424         (best epoch 8.000, current epoch 8.000): 0.49920833110809326.
+2020-11-02 04:53:28	best performance at local index 477         (best epoch 9.000, current epoch 9.000): 0.5722604393959045.
+2020-11-02 05:04:29	best performance at local index 530         (best epoch 10.000, current epoch 10.000): 0.6930312514305115.
+2020-11-02 05:15:37	best performance at local index 583         (best epoch 11.000, current epoch 11.000): 0.7609583139419556.
+2020-11-02 05:26:32	best performance at local index 636         (best epoch 12.000, current epoch 12.000): 0.7754583358764648.
+2020-11-02 05:37:27	best performance at local index 689         (best epoch 13.000, current epoch 13.000): 0.9218021035194397.
+2020-11-02 05:48:22	best performance at local index 742         (best epoch 13.000, current epoch 14.000): 0.9218021035194397.
+2020-11-02 05:59:16	best performance at local index 795         (best epoch 15.000, current epoch 15.000): 0.9657708406448364.
+2020-11-02 06:10:07	best performance at local index 848         (best epoch 16.000, current epoch 16.000): 1.080791711807251.
+2020-11-02 06:20:59	best performance at local index 901         (best epoch 16.000, current epoch 17.000): 1.080791711807251.
+2020-11-02 06:31:52	best performance at local index 954         (best epoch 18.000, current epoch 18.000): 1.2054375410079956.
+2020-11-02 06:42:46	best performance at local index 1007         (best epoch 18.000, current epoch 19.000): 1.2054375410079956.
+2020-11-02 06:53:41	best performance at local index 1060         (best epoch 20.000, current epoch 20.000): 1.3072500228881836.
+2020-11-02 07:04:35	best performance at local index 1113         (best epoch 20.000, current epoch 21.000): 1.3072500228881836.
+2020-11-02 07:15:36	best performance at local index 1166         (best epoch 22.000, current epoch 22.000): 1.4013229608535767.
+2020-11-02 07:26:32	best performance at local index 1219         (best epoch 22.000, current epoch 23.000): 1.4013229608535767.
+2020-11-02 07:37:40	best performance at local index 1272         (best epoch 24.000, current epoch 24.000): 1.6006041765213013.
+2020-11-02 07:48:39	best performance at local index 1325         (best epoch 25.000, current epoch 25.000): 1.883968710899353.
+2020-11-02 07:59:40	best performance at local index 1378         (best epoch 26.000, current epoch 26.000): 2.187812566757202.
+2020-11-02 08:10:39	best performance at local index 1431         (best epoch 26.000, current epoch 27.000): 2.187812566757202.
+2020-11-02 08:21:35	best performance at local index 1484         (best epoch 28.000, current epoch 28.000): 2.5406978130340576.
+2020-11-02 08:32:32	best performance at local index 1537         (best epoch 28.000, current epoch 29.000): 2.5406978130340576.
+2020-11-02 08:43:29	best performance at local index 1590         (best epoch 30.000, current epoch 30.000): 3.1428332328796387.
+2020-11-02 08:54:27	best performance at local index 1643         (best epoch 31.000, current epoch 31.000): 3.283177137374878.
+2020-11-02 09:05:23	best performance at local index 1696         (best epoch 32.000, current epoch 32.000): 3.707479238510132.
+2020-11-02 09:16:19	best performance at local index 1749         (best epoch 33.000, current epoch 33.000): 4.067573070526123.
+2020-11-02 09:27:16	best performance at local index 1802         (best epoch 34.000, current epoch 34.000): 5.029260635375977.
+2020-11-02 09:38:14	best performance at local index 1855         (best epoch 35.000, current epoch 35.000): 5.100510597229004.
+2020-11-02 09:49:14	best performance at local index 1908         (best epoch 36.000, current epoch 36.000): 5.938406467437744.
+2020-11-02 10:00:16	best performance at local index 1961         (best epoch 37.000, current epoch 37.000): 6.553677082061768.
+2020-11-02 10:11:29	best performance at local index 2014         (best epoch 38.000, current epoch 38.000): 7.573625087738037.
+2020-11-02 10:22:32	best performance at local index 2067         (best epoch 39.000, current epoch 39.000): 8.898926734924316.
+2020-11-02 10:33:39	best performance at local index 2120         (best epoch 40.000, current epoch 40.000): 10.254406929016113.
+2020-11-02 10:44:50	best performance at local index 2173         (best epoch 41.000, current epoch 41.000): 10.994083404541016.
+2020-11-02 10:56:15	best performance at local index 2226         (best epoch 42.000, current epoch 42.000): 14.333406448364258.
+2020-11-02 11:07:46	best performance at local index 2279         (best epoch 43.000, current epoch 43.000): 17.655029296875.
+2020-11-02 11:19:00	best performance at local index 2332         (best epoch 44.000, current epoch 44.000): 23.268613815307617.
+2020-11-02 11:30:05	best performance at local index 2385         (best epoch 45.000, current epoch 45.000): 27.192676544189453.
+2020-11-02 11:41:40	best performance at local index 2438         (best epoch 46.000, current epoch 46.000): 36.00960159301758.
+2020-11-02 11:52:38	best performance at local index 2491         (best epoch 46.000, current epoch 47.000): 36.00960159301758.
+2020-11-02 12:04:09	best performance at local index 2544         (best epoch 46.000, current epoch 48.000): 36.00960159301758.
+2020-11-02 12:15:27	best performance at local index 2597         (best epoch 46.000, current epoch 49.000): 36.00960159301758.
+2020-11-02 12:26:29	best performance at local index 2650         (best epoch 50.000, current epoch 50.000): 36.0703239440918.
+2020-11-02 12:37:32	best performance at local index 2703         (best epoch 50.000, current epoch 51.000): 36.0703239440918.
+2020-11-02 12:48:51	best performance at local index 2756         (best epoch 50.000, current epoch 52.000): 36.0703239440918.
+2020-11-02 13:01:06	best performance at local index 2809         (best epoch 50.000, current epoch 53.000): 36.0703239440918.
+2020-11-02 13:12:47	best performance at local index 2862         (best epoch 54.000, current epoch 54.000): 36.196998596191406.
+2020-11-02 13:23:54	best performance at local index 2915         (best epoch 54.000, current epoch 55.000): 36.196998596191406.
+2020-11-02 13:34:53	best performance at local index 2968         (best epoch 54.000, current epoch 56.000): 36.196998596191406.
+2020-11-02 13:45:54	best performance at local index 3021         (best epoch 54.000, current epoch 57.000): 36.196998596191406.
+2020-11-02 13:56:51	best performance at local index 3074         (best epoch 54.000, current epoch 58.000): 36.196998596191406.
+2020-11-02 14:07:49	best performance at local index 3127         (best epoch 59.000, current epoch 59.000): 36.525634765625.
+2020-11-02 14:18:48	best performance at local index 3180         (best epoch 59.000, current epoch 60.000): 36.525634765625.
+2020-11-02 14:29:48	best performance at local index 3233         (best epoch 59.000, current epoch 61.000): 36.525634765625.
+2020-11-02 14:40:44	best performance at local index 3286         (best epoch 62.000, current epoch 62.000): 36.70391845703125.
+2020-11-02 14:51:47	best performance at local index 3339         (best epoch 62.000, current epoch 63.000): 36.70391845703125.
+2020-11-02 15:04:04	best performance at local index 3392         (best epoch 64.000, current epoch 64.000): 37.02031326293945.
+2020-11-02 15:15:30	best performance at local index 3445         (best epoch 65.000, current epoch 65.000): 37.582279205322266.
+2020-11-02 15:26:43	best performance at local index 3498         (best epoch 66.000, current epoch 66.000): 38.41668701171875.
+2020-11-02 15:38:00	best performance at local index 3551         (best epoch 66.000, current epoch 67.000): 38.41668701171875.
+2020-11-02 15:49:17	best performance at local index 3604         (best epoch 68.000, current epoch 68.000): 39.77390670776367.
+2020-11-02 16:00:19	best performance at local index 3657         (best epoch 69.000, current epoch 69.000): 39.95258331298828.
+2020-11-02 16:11:24	best performance at local index 3710         (best epoch 69.000, current epoch 70.000): 39.95258331298828.
+2020-11-02 16:22:38	best performance at local index 3763         (best epoch 69.000, current epoch 71.000): 39.95258331298828.
+2020-11-02 16:33:35	best performance at local index 3816         (best epoch 72.000, current epoch 72.000): 40.362274169921875.
+2020-11-02 16:44:37	best performance at local index 3869         (best epoch 72.000, current epoch 73.000): 40.362274169921875.
+2020-11-02 16:55:52	best performance at local index 3922         (best epoch 74.000, current epoch 74.000): 42.61714553833008.
+2020-11-02 17:07:01	best performance at local index 3975         (best epoch 75.000, current epoch 75.000): 43.41822052001953.
+2020-11-02 17:18:01	best performance at local index 4028         (best epoch 76.000, current epoch 76.000): 44.06459426879883.
+2020-11-02 17:29:16	best performance at local index 4081         (best epoch 76.000, current epoch 77.000): 44.06459426879883.
+2020-11-02 17:40:22	best performance at local index 4134         (best epoch 78.000, current epoch 78.000): 44.341426849365234.
+2020-11-02 17:51:35	best performance at local index 4187         (best epoch 78.000, current epoch 79.000): 44.341426849365234.
+2020-11-02 18:02:36	best performance at local index 4240         (best epoch 80.000, current epoch 80.000): 46.557865142822266.
+2020-11-02 18:13:38	best performance at local index 4293         (best epoch 81.000, current epoch 81.000): 46.80077362060547.
+2020-11-02 18:24:40	best performance at local index 4346         (best epoch 82.000, current epoch 82.000): 48.11961364746094.
+2020-11-02 18:35:42	best performance at local index 4399         (best epoch 83.000, current epoch 83.000): 49.0086784362793.
+2020-11-02 18:47:58	best performance at local index 4452         (best epoch 84.000, current epoch 84.000): 49.427886962890625.
+2020-11-02 18:59:00	best performance at local index 4505         (best epoch 85.000, current epoch 85.000): 51.256771087646484.
+2020-11-02 19:10:02	best performance at local index 4558         (best epoch 86.000, current epoch 86.000): 51.89656448364258.
+2020-11-02 19:20:59	best performance at local index 4611         (best epoch 87.000, current epoch 87.000): 52.637699127197266.
+2020-11-02 19:32:06	best performance at local index 4664         (best epoch 88.000, current epoch 88.000): 53.77509307861328.
+2020-11-02 19:43:21	best performance at local index 4717         (best epoch 89.000, current epoch 89.000): 53.95033264160156.
+2020-11-02 19:54:28	best performance at local index 4770         (best epoch 90.000, current epoch 90.000): 55.20934295654297.
+2020-11-02 19:54:35	eval the local model on full training data.
+2020-11-02 23:15:38	eval the averaged model on full training data.
