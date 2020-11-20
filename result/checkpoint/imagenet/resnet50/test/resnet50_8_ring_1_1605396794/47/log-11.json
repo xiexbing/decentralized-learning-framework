@@ -1,0 +1,33 @@
+[
+ {
+  "measurement": "runtime",
+  "time": "2020-11-16 16:50:49",
+  "rank": 47,
+  "epoch": 90.0,
+  "best_perf": 66.44316864013672,
+  "split": "test",
+  "type": "local_model_avg"
+ },
+ {
+  "measurement": "runtime",
+  "time": "2020-11-16 19:50:27",
+  "rank": 47,
+  "epoch": 90.0,
+  "loss": 1.5810861109724028,
+  "top1": 64.75291667673373,
+  "top5": 84.4734527192786,
+  "split": "test",
+  "type": "eval_local_model_on_full_training_data"
+ },
+ {
+  "measurement": "runtime",
+  "time": "2020-11-16 22:51:46",
+  "rank": 47,
+  "epoch": 90.0,
+  "loss": 1.5781157887409136,
+  "top1": 64.7886653340275,
+  "top5": 84.5457305721751,
+  "split": "test",
+  "type": "eval_averaged_model_on_full_training_data"
+ }
+]

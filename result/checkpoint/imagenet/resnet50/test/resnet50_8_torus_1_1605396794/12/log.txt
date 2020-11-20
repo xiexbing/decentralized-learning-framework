@@ -1,0 +1,22 @@
+2020-11-16 07:06:29	rank: 12
+2020-11-16 07:06:29	node: d37n17
+2020-11-16 07:06:29	neighbors: [4, 11, 13, 20]
+2020-11-16 07:06:29	matrix: [[0.2 0.2 0.  ... 0.  0.  0. ]
+ [0.2 0.2 0.2 ... 0.  0.  0. ]
+ [0.  0.2 0.2 ... 0.  0.  0. ]
+ ...
+ [0.  0.  0.  ... 0.2 0.2 0. ]
+ [0.  0.  0.  ... 0.2 0.2 0.2]
+ [0.  0.  0.  ... 0.  0.2 0.2]]
+2020-11-16 08:08:26	best performance at local index 1881         (best epoch 9.000, current epoch 9.000): 32.98583221435547.
+2020-11-16 09:09:28	best performance at local index 3762         (best epoch 18.000, current epoch 18.000): 43.2367057800293.
+2020-11-16 10:10:34	best performance at local index 5643         (best epoch 27.000, current epoch 27.000): 48.84258270263672.
+2020-11-16 11:11:35	best performance at local index 7524         (best epoch 36.000, current epoch 36.000): 69.09833526611328.
+2020-11-16 12:12:49	best performance at local index 9405         (best epoch 45.000, current epoch 45.000): 69.57725524902344.
+2020-11-16 13:13:44	best performance at local index 11286         (best epoch 54.000, current epoch 54.000): 69.7467041015625.
+2020-11-16 14:14:52	best performance at local index 13167         (best epoch 63.000, current epoch 63.000): 71.29066467285156.
+2020-11-16 15:15:49	best performance at local index 15048         (best epoch 72.000, current epoch 72.000): 71.39383697509766.
+2020-11-16 16:16:40	best performance at local index 16929         (best epoch 81.000, current epoch 81.000): 71.533203125.
+2020-11-16 17:17:36	best performance at local index 18810         (best epoch 90.000, current epoch 90.000): 71.54721069335938.
+2020-11-16 17:17:42	eval the local model on full training data.
+2020-11-16 20:18:42	eval the averaged model on full training data.
