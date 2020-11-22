@@ -16,7 +16,8 @@ import math
 experiments = [["wikitext2/rnn_lm/test", 300], ["cifar10/resnet20/test",300],[ "imagenet/resnet50/test", 90]]
 
 result = "result"
-jason_dir = "/gpfs/alpine/stf008/scratch/bing/dl/federated-learning/dl_code/checkpoint"
+# jason_dir = "/gpfs/alpine/stf008/scratch/bing/dl/federated-learning/dl_code/checkpoint"
+jason_dir = "/home/zzy/tf/bing/decentralized-learning-framework/result/checkpoint"
 gpu_per_node = 6
 
 def read_file(data_file):
@@ -108,6 +109,8 @@ def analyze_train(train_raw, run_dir, train_epoch):
         data_train = 0
         size_train = 0
         for per in sorted_train:
+            if per['epoch'] <= i: continue
+            if per['epoch'] > i+1: break
             #track time
             if 'complete' in run_dir:
                 epoch_records = ['backward_pass', 'forward_pass', 'load_data', 'sync.apply_grad', 'sync.get_data', 'sync.sync', 'sync.unflatten_grad', 'sync_complete']  
@@ -335,8 +338,9 @@ def main():
             run_test = []
             [dataName, nodes, topology, world, timestamp] = run.split('_') 
             ranks = int(nodes) * gpu_per_node 
-            print (rdir)
+            print ("rdir", rdir)
             for rank in os.listdir(rdir):
+                print ("rank", rank)
                 rank_dir = os.path.join(rdir, rank)
                 if os.path.isdir(rank_dir):
                     train_raw = []
