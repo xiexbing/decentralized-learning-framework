@@ -97,7 +97,7 @@ def analyze_test(test_local_model, test_local_avg, test_local_full, test_avg_ful
 
 
 
-def analyze_train(train_raw, run_dir, train_epoch):
+def analyze_train(train_raw, run_dir, train_epoch, nodes=-1, topology=""):
 
     sorted_train = sorted(train_raw, key = lambda i: i['epoch'])
  
@@ -129,7 +129,16 @@ def analyze_train(train_raw, run_dir, train_epoch):
             comm_time = sum(per[k] for k in comm_records)
             compute_time = sum(per[k] for k in compute_records)
             data_time = sum(per[k] for k in data_records)
+
             data_size = sum(per[k] for k in size_records)
+            if topology == "complete":
+                data_size *= (nodes-1)
+            elif topology == "ring":
+                data_size *= 2
+            elif topology == "torus":
+                data_size *= 4
+            else:
+                raise RuntimeError("Unexpected topo: %s" % topology)
  
             if per['epoch'] <= i+1 and per['epoch'] > i:
                 epoch_train += train_time
@@ -358,7 +367,7 @@ def main():
                             test_local_full += curr_test_local_full
                             test_avg_full += curr_test_avg_full
                    
-                    train_time = analyze_train(train_raw, record_dir, train_epoch)
+                    train_time = analyze_train(train_raw, record_dir, train_epoch, nodes, topology)
                     if len(train_time) != train_epoch:
                         print ("incomplete run", rdir)
                         break
