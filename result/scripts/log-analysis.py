@@ -131,6 +131,7 @@ def analyze_train(train_raw, run_dir, train_epoch, nodes=-1, topology=""):
             data_time = sum(per[k] for k in data_records)
 
             data_size = sum(per[k] for k in size_records)
+            data_size *= nodes
             if topology == "complete":
                 data_size *= (nodes-1)
             elif topology == "ring":
